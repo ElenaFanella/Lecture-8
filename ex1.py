@@ -1,4 +1,3 @@
-
 print("-----ESERCIZIO 1----")
 
 def crea_istogramma (file_name):
@@ -20,7 +19,7 @@ def crea_istogramma_grafico(file_name):
  print("lista di valori",val)
  plt.hist(np.arange(0,len(val),1),weights=val,orientation='horizontal')
  plt.gca().invert_yaxis()
- plt.show()
+ plt.show(block=False)
 
 crea_istogramma('h.txt')
 crea_istogramma_grafico('h.txt')

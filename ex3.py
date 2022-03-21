@@ -1,4 +1,5 @@
 print("\n\n-----ESERCIZIO 3-----") 
+
 import numpy as np
 el=[]
 for i in range(5):

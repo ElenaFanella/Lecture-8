@@ -39,6 +39,5 @@ plt.title("Temperatura minima e massima negli anni")
 plt.xlabel("Anno")
 plt.ylabel("T")
 plt.legend()
-plt.show(block=True)
-
+plt.show(block=False)
 
